@@ -21,7 +21,7 @@ public class OrFilter implements Filter
 
     @Override
     public List<String> terms() {
-        return null;
+        return leftChild.terms();
     }
 
     @Override

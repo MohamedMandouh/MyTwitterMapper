@@ -22,7 +22,7 @@ public class AndFilter implements  Filter
 
     @Override
     public List<String> terms() {
-        return null;
+        return leftChild.terms();
     }
 
     @Override
