@@ -18,37 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/twitter/TwitterSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#initialize#0;class#Application#0" />
-                <element signature="method#addQuery#0;class#Application#0" />
-                <element signature="method#getQueryTerms#0;class#Application#0" />
-                <element signature="docComment;method#Application#0;class#Application#0" />
-                <element signature="method#Application#0;class#Application#0" />
-                <element signature="method#pixelWidth#0;class#Application#0" />
-                <element signature="method#getVisibleLayers#0;class#Application#0" />
-                <element signature="e#5266#5364#1" />
-                <element signature="method#getMarkersCovering#0;class#Application#0" />
-                <element signature="e#5720#5984#1" />
-                <element signature="e#5931#5974#1" />
-                <element signature="docComment;method#main#0;class#Application#0" />
-                <element signature="class#6423:6799" />
-                <element signature="method#run#0;class#6423:6799" />
-                <element signature="method#terminateQuery#0;class#Application#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/query/Query.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="306">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,40 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/MapMarkerSimple.java">
+        <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/util/Observable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/NewQueryPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="method#NewQueryPanel#0;class#NewQueryPanel#0" />
-                <element signature="method#addQuery#0;class#NewQueryPanel#0" />
-                <element signature="method#getRandomColor#0;class#NewQueryPanel#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/ContentPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="method#ContentPanel#0;class#ContentPanel#0" />
-                <element signature="method#addQuery#0;class#ContentPanel#0" />
-              </folding>
+            <state relative-caret-position="-159">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -98,45 +41,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/twitter/LiveTwitterSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+            <state relative-caret-position="325">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#sync#0;class#LiveTwitterSource#0" />
-                <element signature="method#initializeListener#0;class#LiveTwitterSource#0" />
+                <element signature="e#972#1287#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
                 <element signature="method#initializeTwitterStream#0;class#LiveTwitterSource#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/twitter/PlaybackTwitterSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#PlaybackTwitterSource#0" />
-                <element signature="method#startThread#0;class#PlaybackTwitterSource#0" />
-                <element signature="method#computePlaybackTime#0;class#934:2518" />
-                <element signature="method#pause#0;class#934:2518" />
-                <element signature="method#sync#0;class#PlaybackTwitterSource#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/twitter/TwitterSource.java">
+        <entry file="file://$PROJECT_DIR$/src/twitter/test/TestPlaybackTwitterSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="35" column="67" lean-forward="true" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+            <state relative-caret-position="255">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#log#0;class#TwitterSource#0" />
-                <element signature="method#setFilterTerms#0;class#TwitterSource#0" />
-                <element signature="method#handleTweet#0;class#TwitterSource#0" />
+                <element signature="e#2064#2065#0" expanded="true" />
+                <element signature="e#2102#2103#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -244,13 +168,13 @@
         <option value="$PROJECT_DIR$/src/filters/test/TestParser.java" />
         <option value="$PROJECT_DIR$/src/filters/test/TestFilters.java" />
         <option value="$PROJECT_DIR$/src/filters/Parser.java" />
-        <option value="$PROJECT_DIR$/src/twitter/TwitterSource.java" />
-        <option value="$PROJECT_DIR$/src/twitter/LiveTwitterSource.java" />
         <option value="$PROJECT_DIR$/src/twitter/PlaybackTwitterSource.java" />
-        <option value="$PROJECT_DIR$/src/twitter/test/TestPlaybackTwitterSource.java" />
         <option value="$PROJECT_DIR$/src/query/Query.java" />
         <option value="$PROJECT_DIR$/src/ui/Application.java" />
         <option value="$PROJECT_DIR$/src/ui/NewQueryPanel.java" />
+        <option value="$PROJECT_DIR$/src/twitter/LiveTwitterSource.java" />
+        <option value="$PROJECT_DIR$/src/twitter/TwitterSource.java" />
+        <option value="$PROJECT_DIR$/src/twitter/test/TestPlaybackTwitterSource.java" />
       </list>
     </option>
   </component>
@@ -301,13 +225,8 @@
               <item name="TwitterMapperStarter" type="b2602c69:ProjectViewProjectNode" />
               <item name="TwitterMapperStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TwitterMapperStarter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TwitterMapperStarter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestPlaybackTwitterSource">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -409,19 +328,6 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration name="CaptureTwitterSourceData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twitter.CaptureTwitterSourceData" />
-      <module name="210project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="twitter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ui.Application" />
       <module name="TwitterMapperStarter" />
@@ -449,7 +355,7 @@
       </method>
     </configuration>
     <configuration name="TestPlaybackTwitterSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="210project" />
+      <module name="TwitterMapperStarter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="twitter.test.*" />
@@ -459,6 +365,24 @@
       <option name="PACKAGE_NAME" value="twitter.test" />
       <option name="MAIN_CLASS_NAME" value="twitter.test.TestPlaybackTwitterSource" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlaybackTwitterSource.testSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TwitterMapperStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twitter.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="twitter.test" />
+      <option name="MAIN_CLASS_NAME" value="twitter.test.TestPlaybackTwitterSource" />
+      <option name="METHOD_NAME" value="testSetup" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
@@ -549,18 +473,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.CaptureTwitterSourceData" />
       <item itemvalue="JUnit.TestParser" />
-      <item itemvalue="JUnit.TestPlaybackTwitterSource" />
       <item itemvalue="JUnit.TestScanner" />
+      <item itemvalue="JUnit.TestPlaybackTwitterSource.testSetup" />
+      <item itemvalue="JUnit.TestPlaybackTwitterSource" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPlaybackTwitterSource" />
+        <item itemvalue="JUnit.TestPlaybackTwitterSource.testSetup" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestScanner" />
         <item itemvalue="JUnit.TestParser" />
-        <item itemvalue="Application.CaptureTwitterSourceData" />
-        <item itemvalue="JUnit.TestPlaybackTwitterSource" />
       </list>
     </recent_temporary>
   </component>
@@ -635,10 +559,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49626467" visible="true" weight="0.17170954" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49626467" weight="0.17170954" />
       <window_info id="Structure" order="1" weight="0.24893919" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -697,8 +621,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/util/Geometry.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/awt/Point.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/javax/swing/JComponent.java" />
     <entry file="jar://$PROJECT_DIR$/lib/JMapViewer.jar!/org/openstreetmap/gui/jmapviewer/AttributionSupport.class" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/net/PlainSocketImpl.java" />
@@ -759,17 +681,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/junit/lib/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/Assertions.class" />
     <entry file="file://$PROJECT_DIR$/data/boring.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/twitter/test/TestPlaybackTwitterSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/filters/test/TestScanner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -893,33 +804,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/query/Query.java">
+    <entry file="jar://$PROJECT_DIR$/JARs/JMapViewer-2.3/JMapViewer_src.jar!/org/openstreetmap/gui/jmapviewer/tilesources/BingAerialTileSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/twitter/LiveTwitterSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sync#0;class#LiveTwitterSource#0" />
-            <element signature="method#initializeListener#0;class#LiveTwitterSource#0" />
-            <element signature="method#initializeTwitterStream#0;class#LiveTwitterSource#0" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/ContentPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="method#ContentPanel#0;class#ContentPanel#0" />
             <element signature="method#addQuery#0;class#ContentPanel#0" />
@@ -930,36 +825,17 @@
     <entry file="file://$PROJECT_DIR$/src/ui/MapMarkerSimple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/NewQueryPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="method#NewQueryPanel#0;class#NewQueryPanel#0" />
-            <element signature="method#addQuery#0;class#NewQueryPanel#0" />
-            <element signature="method#getRandomColor#0;class#NewQueryPanel#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/JARs/JMapViewer-2.3/JMapViewer_src.jar!/org/openstreetmap/gui/jmapviewer/tilesources/BingAerialTileSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        <state relative-caret-position="425">
+          <caret line="178" column="41" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initialize#0;class#Application#0" />
@@ -974,17 +850,37 @@
             <element signature="e#5720#5984#1" />
             <element signature="e#5931#5974#1" />
             <element signature="docComment;method#main#0;class#Application#0" />
-            <element signature="class#6423:6799" />
-            <element signature="method#run#0;class#6423:6799" />
             <element signature="method#terminateQuery#0;class#Application#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/NewQueryPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="method#NewQueryPanel#0;class#NewQueryPanel#0" />
+            <element signature="method#addQuery#0;class#NewQueryPanel#0" />
+            <element signature="method#getRandomColor#0;class#NewQueryPanel#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/twitter/PlaybackTwitterSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="306">
+          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#PlaybackTwitterSource#0" />
@@ -996,15 +892,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/twitter/TwitterSource.java">
+    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/util/Observable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="35" column="67" lean-forward="true" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        <state relative-caret-position="-159">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/JARs/twitter4j-4.0.4/lib/twitter4j-core-4.0.4.jar!/twitter4j/Status.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twitter/LiveTwitterSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#log#0;class#TwitterSource#0" />
-            <element signature="method#setFilterTerms#0;class#TwitterSource#0" />
-            <element signature="method#handleTweet#0;class#TwitterSource#0" />
+            <element signature="e#972#1287#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="method#initializeTwitterStream#0;class#LiveTwitterSource#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twitter/TwitterSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twitter/test/TestPlaybackTwitterSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
           </folding>
         </state>
       </provider>
