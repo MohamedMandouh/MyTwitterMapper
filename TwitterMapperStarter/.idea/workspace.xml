@@ -20,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/query/Query.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="765">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -30,18 +30,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/query/QueryManager.java">
+        <entry file="file://$PROJECT_DIR$/src/ui/QueryManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,14 +44,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="199" column="38" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="38" />
+            <state relative-caret-position="-596">
+              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1335#1336#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
                 <element signature="docComment;method#Application#0;class#Application#0" />
                 <element signature="method#pixelWidth#0;class#Application#0" />
+                <element signature="e#5445#5543#1" />
                 <element signature="method#getMarkersCovering#0;class#Application#0" />
                 <element signature="docComment;method#main#0;class#Application#0" />
+                <element signature="method#updateVisibility#0;class#Application#0" />
               </folding>
             </state>
           </provider>
@@ -75,8 +73,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/ContentPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="952">
+              <caret line="62" column="46" lean-forward="true" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/NewQueryPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="104" column="32" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
+              <folding>
+                <element signature="method#NewQueryPanel#0;class#NewQueryPanel#0" />
+                <element signature="method#getRandomColor#0;class#NewQueryPanel#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RealTwitterSouc</find>
       <find>RealTwitterSour</find>
       <find>RealTwitterSourc</find>
       <find>RealTwitterSource</find>
@@ -123,6 +133,7 @@
       <find>termina</find>
       <find>addq</find>
       <find>terminateQuery</find>
+      <find>que</find>
     </findStrings>
     <replaceStrings>
       <replace>right</replace>
@@ -170,14 +181,12 @@
         <option value="$PROJECT_DIR$/src/filters/NotFilter.java" />
         <option value="$PROJECT_DIR$/src/filters/Scanner.java" />
         <option value="$PROJECT_DIR$/src/twitter/RealTwitterSource.java" />
-        <option value="$PROJECT_DIR$/src/ui/ContentPanel.java" />
         <option value="$PROJECT_DIR$/src/util/ImageCache.java" />
         <option value="$PROJECT_DIR$/src/util/Util.java" />
         <option value="$PROJECT_DIR$/src/util/ObjectSource.java" />
         <option value="$PROJECT_DIR$/src/ui/MapMarkerImage.java" />
         <option value="$PROJECT_DIR$/src/filters/test/TestParser.java" />
         <option value="$PROJECT_DIR$/src/twitter/PlaybackTwitterSource.java" />
-        <option value="$PROJECT_DIR$/src/ui/NewQueryPanel.java" />
         <option value="$PROJECT_DIR$/src/twitter/LiveTwitterSource.java" />
         <option value="$PROJECT_DIR$/src/twitter/test/TestPlaybackTwitterSource.java" />
         <option value="$PROJECT_DIR$/src/filters/test/TestFilters.java" />
@@ -187,9 +196,11 @@
         <option value="$PROJECT_DIR$/src/ui/MapMarkerSimple.java" />
         <option value="$PROJECT_DIR$/src/twitter/TwitterSource.java" />
         <option value="$PROJECT_DIR$/src/ui/MapMarkerNew.java" />
-        <option value="$PROJECT_DIR$/src/query/QueryManager.java" />
-        <option value="$PROJECT_DIR$/src/ui/Application.java" />
         <option value="$PROJECT_DIR$/src/query/Query.java" />
+        <option value="$PROJECT_DIR$/src/query/QueryManager.java" />
+        <option value="$PROJECT_DIR$/src/ui/ContentPanel.java" />
+        <option value="$PROJECT_DIR$/src/ui/NewQueryPanel.java" />
+        <option value="$PROJECT_DIR$/src/ui/Application.java" />
       </list>
     </option>
   </component>
@@ -579,10 +590,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49626467" visible="true" weight="0.1762481" />
-      <window_info id="Structure" order="1" weight="0.24893919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49626467" visible="true" weight="0.1785174" />
+      <window_info id="Structure" order="1" weight="0.24886535" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
@@ -591,7 +601,44 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22058824" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9297386" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38472033" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3287858" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="10" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3496732" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3287858" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="14" weight="0.32985204" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" x="-336" y="-1317" width="1768" height="1076" id="Documentation" order="10" type="FLOATING" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49626467" weight="0.1785174" />
+      <window_info active="true" id="Structure" order="1" visible="true" weight="0.24886535" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5037353" side_tool="true" weight="0.24882995" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22058824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38472033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,7 +663,7 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" x="-336" y="-1317" width="1768" height="1076" id="Documentation" order="10" type="FLOATING" />
       <window_info anchor="right" id="Maven" order="11" weight="0.32980332" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -825,17 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/NewQueryPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="104" column="28" lean-forward="true" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-          <folding>
-            <element signature="method#NewQueryPanel#0;class#NewQueryPanel#0" />
-            <element signature="method#getRandomColor#0;class#NewQueryPanel#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/JARs/JMapViewer-2.3/JMapViewer_src.jar!/org/openstreetmap/gui/jmapviewer/JMapViewer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -988,23 +1024,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/ContentPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/query/Query.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="765">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1012,32 +1034,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/Application.java">
+    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/util/List.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="199" column="38" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="38" />
+        <state relative-caret-position="194">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/NewQueryPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="104" column="32" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#Application#0;class#Application#0" />
-            <element signature="method#pixelWidth#0;class#Application#0" />
-            <element signature="method#getMarkersCovering#0;class#Application#0" />
-            <element signature="docComment;method#main#0;class#Application#0" />
+            <element signature="method#NewQueryPanel#0;class#NewQueryPanel#0" />
+            <element signature="method#getRandomColor#0;class#NewQueryPanel#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/query/QueryManager.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/ContentPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="952">
+          <caret line="62" column="46" lean-forward="true" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="docComment;method#Application#0;class#Application#0" />
+            <element signature="method#pixelWidth#0;class#Application#0" />
+            <element signature="e#5445#5543#1" />
+            <element signature="method#getMarkersCovering#0;class#Application#0" />
+            <element signature="docComment;method#main#0;class#Application#0" />
+            <element signature="method#updateVisibility#0;class#Application#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/QueryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

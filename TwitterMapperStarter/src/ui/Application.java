@@ -7,12 +7,9 @@ import org.openstreetmap.gui.jmapviewer.interfaces.ICoordinate;
 import org.openstreetmap.gui.jmapviewer.interfaces.MapMarker;
 import org.openstreetmap.gui.jmapviewer.tilesources.BingAerialTileSource;
 import query.Query;
-import query.QueryManager;
 import twitter.PlaybackTwitterSource;
 import twitter.TwitterSource;
-import util.ImageCache;
 import util.SphericalGeometry;
-import util.Util;
 
 import javax.swing.*;
 import java.awt.*;
@@ -35,8 +32,13 @@ public class Application extends JFrame {
   //  private List<Query> queries = new ArrayList<>();
     // The source of tweets, a TwitterSource, either live or playback
     private TwitterSource twitterSource;
-
     private QueryManager queryManager;
+
+    public QueryManager getQueryManager() {
+        return queryManager;
+    }
+
+
     private void initialize() {
         // To use the live twitter stream, use the following line
         // twitterSource = new LiveTwitterSource();
@@ -47,34 +49,10 @@ public class Application extends JFrame {
         //  2.0 - play back twice as fast
         twitterSource = new PlaybackTwitterSource(60.0);
 
-        queryManager=new QueryManager();
     }
 
-    /**
-     * A new query has been entered via the User Interface
-     * @param   query   The new query object
-     */
-    public void addQuery(Query query) {
-        queryManager.addQuery(query);
-        Set<String> allterms = getQueryTerms();
-        twitterSource.setFilterTerms(allterms);
-        contentPanel.addQuery(query);
-        // TODO: This is the place where you should connect the new query to the twitter source
-        twitterSource.addObserver(query);
-    }
 
-    /**
-     * return a list of all terms mentioned in all queries. The live twitter source uses this
-     * to request matching tweets from the Twitter API.
-     * @return
-     */
-    private Set<String> getQueryTerms() {
-        Set<String> ans = new HashSet<>();
-        for (Query q : queryManager) {
-            ans.addAll(q.getFilter().terms());
-        }
-        return ans;
-    }
+
 
     /**
      * Constructs the {@code Application}.
@@ -84,10 +62,12 @@ public class Application extends JFrame {
         setSize(300, 300);
         initialize();
 
+
         bing = new BingAerialTileSource();
 
         // Do UI initialization
         contentPanel = new ContentPanel(this);
+        queryManager=new QueryManager(contentPanel);
         setLayout(new BorderLayout());
         add(contentPanel, BorderLayout.CENTER);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -194,13 +174,5 @@ public class Application extends JFrame {
         });
     }
 
-    // A query has been deleted, remove all traces of it
-    public void terminateQuery(Query query) {
-        // TODO: This is the place where you should disconnect the expiring query from the twitter source
-        queryManager.terminate(query);
-        Set<String> allterms = getQueryTerms();
-        twitterSource.setFilterTerms(allterms);
 
-        twitterSource.deleteObserver(query);
-    }
 }
