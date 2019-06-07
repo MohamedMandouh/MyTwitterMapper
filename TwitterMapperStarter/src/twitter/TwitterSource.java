@@ -7,7 +7,7 @@ import java.util.*;
 
 
 public abstract class TwitterSource extends Observable {
-    protected boolean doLogging = true;
+    protected boolean doLogging = false;
     // The set of terms to look for in the stream of tweets
     protected Set<String> terms = new HashSet<>();
 

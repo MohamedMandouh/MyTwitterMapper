@@ -7,9 +7,12 @@ import org.openstreetmap.gui.jmapviewer.interfaces.ICoordinate;
 import org.openstreetmap.gui.jmapviewer.interfaces.MapMarker;
 import org.openstreetmap.gui.jmapviewer.tilesources.BingAerialTileSource;
 import query.Query;
+import query.QueryManager;
 import twitter.PlaybackTwitterSource;
 import twitter.TwitterSource;
+import util.ImageCache;
 import util.SphericalGeometry;
+import util.Util;
 
 import javax.swing.*;
 import java.awt.*;
@@ -29,10 +32,11 @@ public class Application extends JFrame {
     // The provider of the tiles for the map, we use the Bing source
     private BingAerialTileSource bing;
     // All of the active queries
-    private List<Query> queries = new ArrayList<>();
+  //  private List<Query> queries = new ArrayList<>();
     // The source of tweets, a TwitterSource, either live or playback
     private TwitterSource twitterSource;
 
+    private QueryManager queryManager;
     private void initialize() {
         // To use the live twitter stream, use the following line
         // twitterSource = new LiveTwitterSource();
@@ -43,7 +47,7 @@ public class Application extends JFrame {
         //  2.0 - play back twice as fast
         twitterSource = new PlaybackTwitterSource(60.0);
 
-        queries = new ArrayList<>();
+        queryManager=new QueryManager();
     }
 
     /**
@@ -51,7 +55,7 @@ public class Application extends JFrame {
      * @param   query   The new query object
      */
     public void addQuery(Query query) {
-        queries.add(query);
+        queryManager.addQuery(query);
         Set<String> allterms = getQueryTerms();
         twitterSource.setFilterTerms(allterms);
         contentPanel.addQuery(query);
@@ -66,7 +70,7 @@ public class Application extends JFrame {
      */
     private Set<String> getQueryTerms() {
         Set<String> ans = new HashSet<>();
-        for (Query q : queries) {
+        for (Query q : queryManager) {
             ans.addAll(q.getFilter().terms());
         }
         return ans;
@@ -124,6 +128,9 @@ public class Application extends JFrame {
                 ICoordinate pos = map().getPosition(p);
                 // TODO: Use the following method to set the text that appears at the mouse cursor
                 map().setToolTipText("This is a tooltip");
+
+
+
             }
         });
     }
@@ -139,7 +146,7 @@ public class Application extends JFrame {
     // Get those layers (of tweet markers) that are visible because their corresponding query is enabled
     private Set<Layer> getVisibleLayers() {
         Set<Layer> ans = new HashSet<>();
-        for (Query q : queries) {
+        for (Query q : queryManager) {
             if (q.getVisible()) {
                 ans.add(q.getLayer());
             }
@@ -177,7 +184,7 @@ public class Application extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 System.out.println("Recomputing visible queries");
-                for (Query q : queries) {
+                for (Query q : queryManager) {
                     JCheckBox box = q.getCheckBox();
                     Boolean state = box.isSelected();
                     q.setVisible(state);
@@ -190,9 +197,10 @@ public class Application extends JFrame {
     // A query has been deleted, remove all traces of it
     public void terminateQuery(Query query) {
         // TODO: This is the place where you should disconnect the expiring query from the twitter source
-        queries.remove(query);
+        queryManager.terminate(query);
         Set<String> allterms = getQueryTerms();
         twitterSource.setFilterTerms(allterms);
+
         twitterSource.deleteObserver(query);
     }
 }
