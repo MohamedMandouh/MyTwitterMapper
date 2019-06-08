@@ -10,7 +10,7 @@ The project has two phases :
 
 #### 2- display a marker corresponding to the location in the world of the originator of each matching tweet, including defining tool-tips that show the text of each tweet when the user hovers over the map marker with the mouse.
 
-##The project Foucuses on Applying Observable Pattern ,Iterator Pattern , Unit Testing and UML Design
+## The project focuses on Applying Observable Pattern ,Iterator Pattern , Unit Testing and UML Design
 
  ### At Start :
  ![Phase 1](phase1.PNG)
